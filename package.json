@@ -1,0 +1,14 @@
+{
+  "name": "electron-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "./node_modules/.bin/electron -r ./a -r ./b main"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "1.7.x"
+  }
+}
